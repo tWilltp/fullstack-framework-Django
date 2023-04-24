@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .moels import Item
+from .models import Item
 
 
 # Register your models here.
