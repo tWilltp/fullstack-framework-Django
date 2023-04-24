@@ -22,7 +22,7 @@ def add_item(request):
     context = {
         'form': form
     }
-    return render(request, 'todo/add_item.html')
+    return render(request, 'todo/add_item.html', context)
 
 
 def edit_item(request, item_id):
